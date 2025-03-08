@@ -1,0 +1,25 @@
+<suite name="SauceTestSuite">
+    <listeners>
+        <listener class-name="Utils.TestListener"/>
+    </listeners>
+    <test name="LoginTests">
+        <classes>
+            <class name="SauceDemoTests.LoginTests"/>
+        </classes>
+    </test>
+    <test name="ProductTests">
+        <classes>
+            <class name="SauceDemoTests.ProductDTOFilterTest"/>
+        </classes>
+    </test>
+    <test name="CheckoutTests">
+        <classes>
+            <class name="SauceDemoTests.CheckoutTest"/>
+        </classes>
+    </test>
+    <test name="VisualPerformanceTests">
+        <classes>
+            <class name="VisualPerformanceTests.VisualPerformanceTest"/>
+        </classes>
+    </test>
+</suite>

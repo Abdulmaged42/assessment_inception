@@ -1,0 +1,23 @@
+
+  [
+    {
+      "Username": "standard_user",
+      "Password": "secret_sauce",
+      "ExpectedResult": "Success"
+    },
+    {
+      "Username": "locked_out_user",
+      "Password": "secret_sauce",
+      "ExpectedResult": "Error Message: \"Sorry, this user has been locked out.\""
+    },
+    {
+      "Username": "problem_user",
+      "Password": "secret_sauce",
+      "ExpectedResult": "Validate if images are broken after login"
+    },
+    {
+      "Username": "performance_glitch_user",
+      "Password": "secret_sauce",
+      "ExpectedResult": "Detect any slow loading behavior (use timing assertions)"
+    }
+  ]
