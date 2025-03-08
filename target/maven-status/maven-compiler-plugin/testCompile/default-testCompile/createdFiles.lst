@@ -1,0 +1,10 @@
+SauceDemoTests/ProductDTOFilterTest.class
+BaseTest/mockBase.class
+VisualPerformanceTests/VisualPerformanceTest.class
+BaseTest/BaseTest.class
+SauceDemoTests/CheckoutTest.class
+ApiUiValidationTests/ApiUiValidationTest.class
+SauceDemoTests/LoginTests$1.class
+Utils/TestListener.class
+SauceDemoTests/LoginTests.class
+BaseTest/BaseForVisual.class

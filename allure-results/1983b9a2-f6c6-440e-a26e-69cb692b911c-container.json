@@ -1,0 +1,1 @@
+{"uuid":"1983b9a2-f6c6-440e-a26e-69cb692b911c","name":"VisualPerformanceTests.VisualPerformanceTest","children":["a5fced48-5fb3-4801-b195-f7d63fa6d80d"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1741451088395,"stop":1741451092440}],"afters":[],"start":1741451088385,"stop":1741451130507}

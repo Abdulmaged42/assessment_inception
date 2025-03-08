@@ -4,7 +4,7 @@
 This project automates various test scenarios using **Selenium WebDriver**, **TestNG**, and **Rest-Assured**. The tests include **UI testing, API validation, performance testing, visual regression testing, and data-driven testing**.
 
 ### **✅ Features Implemented**
-✔ **Data-Driven Testing** using **JSON & CSV**
+✔ **Data-Driven Testing** using **JSON **
 ✔ **UI Testing with Selenium WebDriver**
 ✔ **API Testing with Rest-Assured**
 ✔ **Visual Regression Testing using AShot**
@@ -70,7 +70,7 @@ mvn test
 ```
 Run specific test suite:
 ```sh
-mvn test -DsuiteXmlFile=testng.xml
+mvn test -DsuiteXmlFile=SauceTests.xml
 ```
 
 ---
@@ -119,17 +119,44 @@ mvn test -DsuiteXmlFile=testng.xml
 **📌 Implementation:** [`VisualPerformanceTest.java`](src/main/java/tests/VisualPerformanceTest.java)
 
 ---
+## **📊 Run Tests & Generate Reports**
+
+### **1️⃣ Generate Default TestNG Reports**
+```sh
+mvn test
+```
+- View reports in: `allure open allure-report`
+
+### **2️⃣ Generate Allure Reports**
+```sh
+mvn clean test
+allure generate allure-results --clean -o allure-report
+allure open allure-report
+```
+- Opens **Allure report** in the browser.
+
+### **3️⃣ Generate ExtentReports**
+```sh
+mvn clean test
+```
+- Open `allure open allure-report`
+
+---
 ## **📊 Test Reports & Logs**
-- **Test Reports:** Located in `test-output/`
+- **Test Reports:** Located in `allure-report/`
 - **Screenshots:** Stored in `screenshots/`
-- **JSON Logs:** Test execution logs stored in `test-output/`
+- **JSON Logs:** Test execution logs stored in `test-logs/`
 
 ---
 ## **📌 Enhancements & Future Improvements**
 ✅ Integrate **Allure Reports** for detailed reporting 📊  
 ✅ Extend **API Testing** for POST/PUT endpoints 🔄  
 ✅ Implement **Parallel Test Execution** for faster runs ⚡  
-✅ Store logs in **Elasticsearch/Kibana** for better analysis 📂  
+✅ Store logs in **Elasticsearch/Kibana** for better analysis 📂
 
 
+
+---
+## **📬 Contact**
+For questions or suggestions, contact: [abdelmagedabdallah752@gmail.com] ✉️
 

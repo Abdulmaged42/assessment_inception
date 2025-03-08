@@ -2,6 +2,9 @@
     <listeners>
         <listener class-name="Utils.TestListener"/>
     </listeners>
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
     <test name="LoginTests">
         <classes>
             <class name="SauceDemoTests.LoginTests"/>
@@ -20,6 +23,11 @@
     <test name="VisualPerformanceTests">
         <classes>
             <class name="VisualPerformanceTests.VisualPerformanceTest"/>
+        </classes>
+    </test>
+    <test name="ApiUiValidationTest">
+        <classes>
+            <class name="ApiUiValidationTests.ApiUiValidationTest"/>
         </classes>
     </test>
 </suite>

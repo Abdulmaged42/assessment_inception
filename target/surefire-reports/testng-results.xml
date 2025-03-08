@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-08T19:24:48 AST" name="Surefire suite" finished-at="2025-03-08T19:25:30 AST" duration-ms="42116">
+    <groups>
+    </groups>
+    <test started-at="2025-03-08T19:24:48 AST" name="Surefire test" finished-at="2025-03-08T19:25:30 AST" duration-ms="42116">
+      <class name="ApiUiValidationTests.ApiUiValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ApiUiValidationTests.ApiUiValidationTest@e7edb54]" started-at="2025-03-08T19:24:57 AST" name="setup" finished-at="2025-03-08T19:24:59 AST" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testApiUiValidation()[pri:0, instance:ApiUiValidationTests.ApiUiValidationTest@e7edb54]" started-at="2025-03-08T19:24:59 AST" name="testApiUiValidation" finished-at="2025-03-08T19:25:00 AST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiUiValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ApiUiValidationTests.ApiUiValidationTest@e7edb54]" started-at="2025-03-08T19:25:00 AST" name="teardown" finished-at="2025-03-08T19:25:00 AST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ApiUiValidationTests.ApiUiValidationTest -->
+      <class name="VisualPerformanceTests.VisualPerformanceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:VisualPerformanceTests.VisualPerformanceTest@3e6ef8ad]" started-at="2025-03-08T19:24:48 AST" name="setup" finished-at="2025-03-08T19:24:52 AST" duration-ms="4033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testVisualAndPerformance()[pri:0, instance:VisualPerformanceTests.VisualPerformanceTest@3e6ef8ad]" started-at="2025-03-08T19:24:52 AST" name="testVisualAndPerformance" finished-at="2025-03-08T19:24:57 AST" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVisualAndPerformance -->
+      </class> <!-- VisualPerformanceTests.VisualPerformanceTest -->
+      <class name="SauceDemoTests.CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SauceDemoTests.CheckoutTest@378542de]" started-at="2025-03-08T19:25:00 AST" name="setup" finished-at="2025-03-08T19:25:02 AST" duration-ms="1864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckoutWorkflow()[pri:0, instance:SauceDemoTests.CheckoutTest@378542de]" started-at="2025-03-08T19:25:02 AST" name="testCheckoutWorkflow" finished-at="2025-03-08T19:25:04 AST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWorkflow -->
+      </class> <!-- SauceDemoTests.CheckoutTest -->
+      <class name="SauceDemoTests.ProductDTOFilterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SauceDemoTests.ProductDTOFilterTest@3738449f]" started-at="2025-03-08T19:25:04 AST" name="setup" finished-at="2025-03-08T19:25:06 AST" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testProductSortingAndCartVerification()[pri:0, instance:SauceDemoTests.ProductDTOFilterTest@3738449f]" started-at="2025-03-08T19:25:06 AST" name="testProductSortingAndCartVerification" finished-at="2025-03-08T19:25:08 AST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSortingAndCartVerification -->
+      </class> <!-- SauceDemoTests.ProductDTOFilterTest -->
+      <class name="SauceDemoTests.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SauceDemoTests.LoginTests@c732e1c]" started-at="2025-03-08T19:25:08 AST" name="setup" finished-at="2025-03-08T19:25:11 AST" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemoTests.LoginTests@c732e1c]" started-at="2025-03-08T19:25:11 AST" name="loginTests" data-provider="jsonDataProvider" finished-at="2025-03-08T19:25:11 AST" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SauceDemoTests.LoginTests@c732e1c]" started-at="2025-03-08T19:25:11 AST" name="setup" finished-at="2025-03-08T19:25:15 AST" duration-ms="4404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemoTests.LoginTests@c732e1c]" started-at="2025-03-08T19:25:15 AST" name="loginTests" data-provider="jsonDataProvider" finished-at="2025-03-08T19:25:16 AST" duration-ms="597" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Error Message: "Sorry, this user has been locked out."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Expected: Error Message: "Sorry, this user has been locked out." but got: Epic sadface: Sorry, this user has been locked out. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Expected: Error Message: "Sorry, this user has been locked out." but got: Epic sadface: Sorry, this user has been locked out. expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at SauceDemoTests.LoginTests.loginTests(LoginTests.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SauceDemoTests.LoginTests@c732e1c]" started-at="2025-03-08T19:25:16 AST" name="setup" finished-at="2025-03-08T19:25:19 AST" duration-ms="2744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemoTests.LoginTests@c732e1c]" started-at="2025-03-08T19:25:19 AST" name="loginTests" data-provider="jsonDataProvider" finished-at="2025-03-08T19:25:20 AST" duration-ms="1084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validate if images are broken after login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SauceDemoTests.LoginTests@c732e1c]" started-at="2025-03-08T19:25:20 AST" name="setup" finished-at="2025-03-08T19:25:25 AST" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemoTests.LoginTests@c732e1c]" started-at="2025-03-08T19:25:25 AST" name="loginTests" data-provider="jsonDataProvider" finished-at="2025-03-08T19:25:30 AST" duration-ms="5344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Detect any slow loading behavior (use timing assertions)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+      </class> <!-- SauceDemoTests.LoginTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
